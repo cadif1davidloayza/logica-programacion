@@ -1,0 +1,33 @@
+Algoritmo comprar_huevos
+	definir cantidad_total_del_carton_de_huevos como entero
+	//cantidad de huevos total del carton
+	definir monto_del_carton_de_huevos como real
+	//monto a pagar por comprar el carton completo
+	definir monto_de_huevos_completos Como Real
+	//el precio que tiene cada unidad de huevos si se compra el carton completo
+	definir monto_de_huevos_detallados como real
+	//el precio que tiene cada unidad de huevos si se compra por detallado
+	definir monto_cantidad_huevos_detallados_comprados como real
+	//el precio que tiene la cantidad total de huevos si se compran por detallado
+	definir cantidad_huevos como entero
+	//la cantidad de huevos comprados ya sea carton(36 huevos) o detallados (n huevos)
+	
+	cantidad_total_del_carton_de_huevos<-36
+	
+	monto_del_carton_de_huevos<-4500
+	
+	monto_de_huevos_completos<- monto_del_carton_de_huevos/cantidad_total_del_carton_de_huevos //125
+	
+	monto_de_huevos_detallados<- monto_de_huevos_completos*1.20
+	
+	
+	mostrar "el precio del carton de huevos completo de 36 unidades es 4500 Bs.f. ¿cuantos huevos quiere comprar?"
+	leer cantidad_huevos
+	Si cantidad_huevos=36 Entonces
+		mostrar "el monto es: 4500"
+	SiNo
+		monto_cantidad_huevos_detallados_comprados<-cantidad_huevos*monto_de_huevos_detallados
+		mostrar "el monto es:" monto_cantidad_huevos_detallados_comprados
+	Fin Si
+	
+FinAlgoritmo
