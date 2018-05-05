@@ -1,0 +1,199 @@
+
+h1{
+ color:#ff1a75;
+ font-family:verdana;
+ text-align: center;
+ 
+}
+
+h2{
+	color:#9c35cc;
+	font-family:verdana;
+}
+
+h3{
+	font-family:verdana;
+	color:#76e542 ;
+}
+
+h4{
+	color: #f20c13;
+}
+
+body{
+	background-image:url("../img/bg.jpg") ;
+	background-color:black;
+	background-repeat: no-repeat;
+}
+
+div nav{
+border-style: solid;
+border-width: 2px;
+border-color: blue;
+
+}
+
+ nav{
+ 	width: 345px;
+	float: right;
+	border-width: 2px;
+	border-style: solid;
+	display: inline;
+	background-color: yellow; 
+}
+
+nav span {
+	text-align: right;
+	background: yellow;
+	
+}
+
+.menu:hover{
+	background-color: blue;
+}
+
+#images_book{
+	padding:10px;
+	margin:5px;
+	background-color:#04cce2 ;
+	
+}
+
+img{
+	margin-right: 1px;
+	
+	
+}
+
+p{
+	color:white;
+}
+
+span{
+
+	color:black;
+	margin:2px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+a:link{
+	color:white;
+}
+
+p.inline{
+
+	
+	border-style: solid;
+	border-width: 1px
+	border-color:#9a1adb;
+	
+}
+
+#image{
+display: inline-block;
+
+}
+
+footer{
+	margin-top:15px;
+}
+
+
+footer span{
+	float: left;
+}
+
+p{
+	font-family: verdana;
+}
+
+.box{
+border:3px solid blue;
+margin-top: 6px;
+
+}
+
+figure{
+display: inline;
+
+}
+
+.subfooter{
+	display: inline-block;
+	background: white;
+}
+
+.subfooter p{
+	color: black;
+	font-family: times new roman;
+}
+
+.subfooter:hover{
+	background-color: #a50983;
+}
+
+aside{
+	text-align: center;
+	border: 1px dashed black;
+	margin: 10px;
+	clear: both;
+}
+
+aside img{
+	margin: 6px;
+}
+
+blockquote{
+color: white;
+
+}
+
+.simbolo{
+	display: inline;
+	text-align: left;
+}
+
+.div_superior{
+
+	width: 380px;
+	height: 200px;
+	border-style:hidden;
+	border:1px;
+	background-color: #a85706;
+	text-align: center;
+	display: inline-block;
+	margin-top: 10px;
+}
+.div_superior:hover{
+
+	color:blue;
+}
+
+.div_superior img{
+	margin-top: 15px;
+}
+
+.super_span{
+	text-align: right; 
+	margin-left: 15px; 
+	margin-top: 10px;
+}
+
+
+header{
+	text-align: left;
+}
+
+header span{
+	margin-top: 10px;
+}
+
+
+#clearp{
+	text-align: left;
+}
